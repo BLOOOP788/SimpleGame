@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EXAMPLE2</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="next">Next</string>
 </resources>
