@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CICLO-2022-2/APLICACIONES PARA DISPOSITIVOS MOVILES/GIT23/app/src/main/res/layout/activity_chart.xml" value="0.17857142857142858" />
+        <entry key="..\:/CICLO-2022-2/APLICACIONES PARA DISPOSITIVOS MOVILES/GIT23/app/src/main/res/layout/activity_lose.xml" value="0.45286195286195285" />
+        <entry key="..\:/CICLO-2022-2/APLICACIONES PARA DISPOSITIVOS MOVILES/GIT23/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/CICLO-2022-2/APLICACIONES PARA DISPOSITIVOS MOVILES/GIT23/app/src/main/res/layout/activity_register.xml" value="0.16032608695652173" />
+        <entry key="..\:/CICLO-2022-2/APLICACIONES PARA DISPOSITIVOS MOVILES/GIT23/app/src/main/res/layout/activity_win.xml" value="0.33" />
+        <entry key="..\:/CICLO-2022-2/APLICACIONES PARA DISPOSITIVOS MOVILES/GIT23/app/src/main/res/layout/player_charts.xml" value="0.33" />
+        <entry key="..\:/CICLO-2022-2/APLICACIONES PARA DISPOSITIVOS MOVILES/GIT23/app/src/main/res/layout/player_charts_prototype.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
       </map>
     </option>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA7B65"
+    tools:context=".Lose">
+
+    <TextView
+        android:id="@+id/tvTitleLose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="169dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Perdiste"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLose2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="229dp"
+        android:text="@string/tu_puntaje_es_de"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLoseScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="199dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleLose"
+        tools:text="00" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="338dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgameover" />
+
+    <TextView
+        android:id="@+id/tvNameLose"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="84dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvTitleLose"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:text="Name" />
+
+    <Button
+        android:id="@+id/btLoseChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="135dp"
+        android:text="@string/go_to_chart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoseScore" />
+</androidx.constraintlayout.widget.ConstraintLayout>

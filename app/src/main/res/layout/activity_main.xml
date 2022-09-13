@@ -4,17 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#66CAFD"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tvQuestion"
-        android:layout_width="400dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="122dp"
+        android:layout_width="361dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="140dp"
+        android:lineSpacingExtra="8sp"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="6dp"
         tools:text="PREGUNTAS" />
 
     <Button
@@ -36,14 +41,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvQuestion" />
 
-    <Button
-        android:id="@+id/btNext"
+    <TextView
+        android:id="@+id/tvScoreTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="117dp"
-        android:text="@string/next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLifeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/vidas"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvScoreTitle"
+        app:layout_constraintEnd_toStartOf="@+id/tvLife" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvScoreTitle"
+        app:layout_constraintStart_toEndOf="@+id/tvScoreTitle"
+        tools:text="00" />
+
+    <TextView
+        android:id="@+id/tvLife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvScoreTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="00" />
+
+    <TextView
+        android:id="@+id/tvNameMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="134dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvLifeText"
+        app:layout_constraintEnd_toStartOf="@+id/tvLifeText"
+        app:layout_constraintStart_toEndOf="@+id/tvScore"
+        tools:text="Name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

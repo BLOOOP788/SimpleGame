@@ -3,4 +3,14 @@
     <string name="si">Si</string>
     <string name="no">No</string>
     <string name="next">Next</string>
+    <string name="score">Score:</string>
+    <string name="vidas">Vidas</string>
+    <string name="ganaste">GANASTE!!</string>
+    <string name="tu_puntaje_es_de">Tu puntaje es de :</string>
+    <string name="start">Start</string>
+    <string name="bienvenido_a_cup">Bienvenido a CUP</string>
+    <string name="name">Name</string>
+    <string name="best_players">Best Players</string>
+    <string name="go_to_chart">Go to Chart</string>
+    <string name="inicio">Inicio</string>
 </resources>
